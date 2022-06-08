@@ -17,7 +17,7 @@ public class Circle {
         final double dx = ( x - X_CENTRE );
         final double dy = ( y - Y_CENTRE );
         final double diff = Math.abs( dx * dx + dy * dy - SQUARED_RADIUS );
-        // System.out.println( diff );
+        System.out.println( diff );
         return diff < error;
     }
 }
